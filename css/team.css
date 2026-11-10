@@ -48,3 +48,32 @@
 .list-container li {
   border-radius: 0 0 4px 4px;
 }
+.icons-team {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  width: 232px;
+  height: 40px;
+}
+.icon-team {
+  color: white;
+}
+.link-icon-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4d5ae5;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+}
+.link-icon-team:hover,
+.link-icon-team:focus {
+  background: #404bbf;
+}
+.container-shadow {
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}

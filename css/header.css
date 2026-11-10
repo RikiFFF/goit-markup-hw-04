@@ -60,7 +60,6 @@
   display: flex;
   align-items: flex-start;
   gap: 40px;
-
   margin-left: 76px;
   margin-right: 340px;
 }
@@ -73,4 +72,21 @@
 }
 .main-address li > a {
   padding: 24px 0;
+}
+.current {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.current::after {
+  content: "";
+  border-radius: 2px;
+  width: 65px;
+  height: 4px;
+  background: #404bbf;
+  position: absolute;
+  bottom: 0px;
+}
+.current:active {
+  color: #404bbf;
 }
