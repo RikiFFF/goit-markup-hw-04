@@ -31,8 +31,34 @@
 }
 .main-footer .container {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+}
+.icons-footer {
+  display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-left: 120px;
+}
+.main-footer-icons {
+  display: flex;
+  gap: 16px;
+}
+.footer-social {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.link-icon-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  background: #4d5ae5;
+}
+.link-icon-footer:hover {
+  background: #31d0aa;
 }
