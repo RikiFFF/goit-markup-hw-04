@@ -51,12 +51,11 @@
 .icons-team {
   display: flex;
   gap: 24px;
-  justify-content: space-between;
   width: 232px;
   height: 40px;
 }
 .icon-team {
-  color: white;
+  color: #f4f4fd;
 }
 .link-icon-team {
   display: flex;
@@ -66,10 +65,11 @@
   border-radius: 40px;
   width: 40px;
   height: 40px;
+  transition: background-color 250ms ease-in-out;
 }
 .link-icon-team:hover,
 .link-icon-team:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 .container-shadow {
   box-shadow:
